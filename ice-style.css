@@ -64,6 +64,10 @@ aside{
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: 200px;
+  font-family: Times;
+}
+aside ul{
+  font-size: 20px;
 }
 #content h1{
   display: inline;
