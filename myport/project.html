@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Projects - pinchia</title>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <!-- <span class="d-block d-lg-none">Start Bootstrap</span> -->
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/face.jpg" alt="face">
+        </span>
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="project.html" style="color:white;">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="education.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="skills.html">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+          <!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+      		<img class = "preview" id="internImg"
+      			alt = "Shrimp Detector"
+      			src = "img/objectDetector.jpg"
+            height="100"
+            width="115";>
+
+
+      		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+      		<img class = "preview" id="paraImg"
+      			alt = "Parallel Computing"
+      			src = "img/ParaComp.jpeg"
+            height="100"
+            width="115";>
+
+      		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+      		<img class = "preview" id="IRImg"
+      			src = "img/infoRetrieval.jpeg"
+      			alt = "Information Retrieval"
+            height="100"
+            width="115";>
+
+          <img class = "preview" id="MLImg"
+            src = "img/machineLearning.jpeg"
+            alt = "Machine Learning"
+            height="100"
+            width="115";>
+
+          <img class = "preview" id="CVImg"
+            src = "img/computerVision.jpeg"
+            alt = "Computer Vision"
+            height="100"
+            width="115";>
+
+          <div class="proj-item d-flex flex-column flex-md-row mb-5" id="internText">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Data Analysis Intern</h3>
+              <div class="subheading mb-3">
+                <img class="company" src = "img/delta.png" alt = "Delta" height="60" width="60";>
+                <p>Delta Electronic Inc.</p>
+              </div>
+              <ul>
+                <li>Built shrimp detector with TensorFlow’s object detector API to label and count shrimps on images.</li>
+                <li>Labelled images with OpenCV and implemented image processing such as sharpened images and removed disturbance with Scikit library. </li>
+                <li>Reduced training time by utilizing pre-trained model and enhanced overall accuracy to 80%. </li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Jul. 2017 to Aug.2017</span>
+            </div>
+          </div>
+
+          <div class="proj-item d-flex flex-column flex-md-row mb-5" id="paraText">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Parallel Computing</h3>
+              <div class="subheading mb-3">Solving Traveling Salesman Problem (TSP) with Genetic Algorithm (GA) on GPU</div>
+              <ul>
+                <li>Dynamic allocated memory on GPU and optimized parallel reduction.</li>
+                <li>Increased speedup by 12 times comparing to serial approach with parallelized GA using Cuda.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sept. 2017 to Dec. 2017</span>
+            </div>
+          </div>
+
+          <div class="proj-item d-flex flex-column flex-md-row mb-5" id="IRText">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Information Retrieval</h3>
+              <div class="subheading mb-3">Courses recommendation system</div>
+              <ul>
+                <li>Developed web crawler to collect course list from LinkedIn users.</li>
+                <li>Applied preprocessing with Natural Language Toolkit library and clustered similar courses with cosine similarity and Word2Vec features.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sept. 2017 to Dec. 2017</span>
+            </div>
+          </div>
+
+          <div class="proj-item d-flex flex-column flex-md-row mb-5" id="MLText">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Machine Learning</h3>
+              <div class="subheading mb-3">Prediction of hotel ratings with machine learning techniques</div>
+              <ul>
+                <li>Constructed prediction models with support vector machine, Naïve Bayes, tree regression and gradient boosting classifier approach.</li>
+                <li>Compared performance of different prediction models and drew tree regression graphic to analyze potential factors that affect the performance of the ratings with Python.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Jan. 2017 to May. 2017</span>
+            </div>
+          </div>
+
+          <div class="proj-item d-flex flex-column flex-md-row mb-5" id="CVText">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Computer Vision</h3>
+              <div class="subheading mb-3">Orange grading with computer vision techniques</div>
+              <ul>
+                <li>Removed background, eliminated disturbance, and extracted shape, color, and texture features.</li>
+                <li>Built error-correcting output code multiclass model to classify oranges’ qualification with 85% accuracy.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sept. 2016 to Dec. 2016</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <footer>
+      <div class="footer">
+          <h3>Portfolio</h3>
+          <p>Maintained by <a href="about.html">Pin-Chia Chen</a>.
+            <br> All rights reserved. 2018 &reg;</p>
+      </div>
+    </footer>
+
+    <!-- Custom scripts for this template -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/resume.js"></script>
+
+  </body>
+
+</html>
