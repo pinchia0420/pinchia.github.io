@@ -2,6 +2,7 @@
 $(document).ready(function(){
   $(".preview").on("mouseover focus", showInfo);
   $(".preview").on("mouseleave blur", hideInfo);
+  $(".navbar-toggle").on("click", navBarControl);
 });
 function showInfo(){
   if (this.id === "internImg") {
@@ -45,5 +46,14 @@ function hideInfo(){
   else {
     //console.log("CVImg")
     $("#CVText").css("display", "none");
+  }
+}
+function navBarControl(){
+  var status = $("#navbarSupportedContent").css('display');
+  if (status === "none") {
+    $("#navbarSupportedContent").css('display', "block");
+  }
+  else {
+    $("#navbarSupportedContent").css('display', "none");
   }
 }
