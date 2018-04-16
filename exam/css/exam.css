@@ -5,6 +5,7 @@ div {
 
 body {
   background-image: url("../images/tic-tac-toe.png");
+  margin: 0;
 }
 
 .image {
